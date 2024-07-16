@@ -4,9 +4,13 @@ import React from "react";
 import UserContext from "../utils/UserContext";
 
 class About extends React.Component {
+
     constructor(props){
+
         super(props)
+
         //console.log("Parent Constructor")
+        
     }
     
     componentDidMount(){
@@ -16,7 +20,9 @@ class About extends React.Component {
     }
 
     render(){
+
         //console.log("Parent Render");
+
         return(
 
             <div>
@@ -39,6 +45,7 @@ class About extends React.Component {
             <UserClass name = {"Navaneeth V "} Location = {"Palakkad - class"}/>
             
         </div>
+
         )
     }
 }
