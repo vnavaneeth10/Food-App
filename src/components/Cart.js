@@ -22,6 +22,7 @@ const Cart = () => {
 
      <h1 
      className="text-2xl font-bold">
+
         Cart</h1>
 
      <div 
@@ -32,6 +33,7 @@ const Cart = () => {
         className="p-2 m-2 bg-black text-white rounded-lg" 
 
         onClick={handleClearCart}>
+
             Clear Cart
 
         </button>
@@ -45,5 +47,5 @@ const Cart = () => {
      )
 }
 
-// className='w-[10] h-[100]'
+
 export default Cart;
