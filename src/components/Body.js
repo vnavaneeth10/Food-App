@@ -104,7 +104,7 @@ const Body = () => {
         <button 
         className="px-4 py-2 bg-gray-100 rounded-lg hover:bg-pink-200" 
         onClick={() => {
-          const filteredList = listofRestaurants.filter((res) => res.info.avgRating > 4);
+          const filteredList = listofRestaurants.filter((res) => res.info.avgRating > 4.5);
           setListOfRestaurants(filteredList);
           //console.log("filter is ",filteredList);
           
