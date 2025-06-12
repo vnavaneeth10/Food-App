@@ -12,34 +12,6 @@
 
 
 
-// import React from "react";
-
-// const Grocery = () => {
-//   return (
-//     <div>
-//       <h1>Grocery store</h1>
-//       <p>
-//         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-//         dolore aspernatur possimus consequuntur, nulla expedita placeat
-//         perspiciatis esse totam natus tempora voluptatibus hic architecto
-//         tenetur? Hic beatae ipsa laborum voluptate. Modi itaque quibusdam,
-//         pariatur ex temporibus nam iure ab? Consequatur corrupti voluptas
-//         consequuntur ad impedit! Officia temporibus tempore incidunt fugiat,
-//         magnam repellendus voluptates, exercitationem quos vero cupiditate
-//         doloremque neque earum. Reprehenderit numquam molestias accusantium,
-//         commodi alias, facere repudiandae beatae animi quae maiores vitae. Odio
-//         magni quisquam quod expedita, explicabo labore deleniti modi nam maiores
-//         necessitatibus, illum laudantium accusantium ratione temporibus! Eius id
-//         totam earum nobis eaque atque soluta, ab, molestias ea aut accusamus.
-//         Alias non error accusantium illum. Laborum amet eligendi provident odit
-//         culpa sunt officia molestias asperiores ab odio.
-//       </p>{" "}
-//     </div>
-//   );
-// };
-
-// export default Grocery;
-
 
 import React, { useState } from "react";
 
