@@ -106,15 +106,15 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="bg-white rounded-lg shadow-md p-6 space-y-6">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Our Location</h3>
-              <p className="text-gray-600">123 Food Street</p>
-              <p className="text-gray-600">Cuisine City, FC 12345</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2"> 🍽️ Swadish</h3>
+              <p className="text-gray-600">2nd Street, Gandhi Nagar</p>
+              <p className="text-gray-600">Kerala - 00001</p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Contact Info</h3>
               <p className="text-gray-600">📞 +1 234 567 890</p>
-              <p className="text-gray-600">📧 support@foodvilla.com</p>
+              <p className="text-gray-600">📧 support@swadish.com</p>
             </div>
 
             <div>
