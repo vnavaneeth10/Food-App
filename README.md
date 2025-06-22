@@ -15,6 +15,19 @@ Swadish is a high-performance, responsive food ordering web application built us
 
 ---
 
+## 🧰 Tech Stack
+
+- ⚛️ **React.js** – Component-based architecture
+- 🛠️ **Redux Toolkit** – State management with slices and store
+- 🎨 **Tailwind CSS** – Utility-first CSS for responsive UI
+- 🧪 **Jest & React Testing Library** – Unit and component testing
+- 🌐 **React Router DOM** – Client-side routing
+- 📦 **Parcel** – Blazing fast bundler for development
+- 🧠 **React Hooks & Context API** – Managing local and global state
+- 💤 **Lazy Loading** – Improves performance and load time
+
+---
+
 ## 🏗️ Folder Structure
 
 ```bash
@@ -54,16 +67,6 @@ src/
 └── App.js
 
 
-## 🧰 Tech Stack
-
-- ⚛️ **React.js** – Component-based architecture
-- 🛠️ **Redux Toolkit** – State management with slices and store
-- 🎨 **Tailwind CSS** – Utility-first CSS for responsive UI
-- 🧪 **Jest & React Testing Library** – Unit and component testing
-- 🌐 **React Router DOM** – Client-side routing
-- 📦 **Parcel** – Blazing fast bundler for development
-- 🧠 **React Hooks & Context API** – Managing local and global state
-- 💤 **Lazy Loading** – Improves performance and load time
 
 ## 📸 Screenshots
 
@@ -100,6 +103,67 @@ src/
 > A brief PPT explaining features, tech stack, architecture, and user flow.
 
 📥 [Download Project PPT](ppt-link)  
+
+
+---
+
+##  📦 Installation
+
+To set up and run this project locally:
+
+git clone https://github.com/vnavaneeth10/Food-App.git
+cd Food-App
+npm install
+npm run dev
+
+Ensure Node.js and Parcel are installed.
+
+---
+
+##  🧪 Run Tests
+
+To run unit tests using Jest and React Testing Library:
+
+npm test
+
+
+Test files are located inside components/__tests__/
+
+---
+
+
+## 🌐 Live Demo
+
+👉 Live App
+
+Hosted on Netlify/Vercel/GitHub Pages
+
+
+---
+
+
+## 👨‍💻 Author
+
+Navaneeth V
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
+MIT License
+
+Copyright (c) 2025 Navaneeth
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
+
+
+
 
 
 
