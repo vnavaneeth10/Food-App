@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Food Villa</h3>
+            <h3 className="text-lg font-bold">Swadish</h3>
             <p className="text-gray-300 text-sm">
               Delivering happiness with delicious food right at your doorstep.
             </p>
@@ -28,7 +28,7 @@ const Footer = () => {
                   to="/about"
                   className="text-gray-300 hover:text-white text-sm"
                 >
-                  About Us
+                  About
                 </Link>
               </li>
               <li>
@@ -36,7 +36,7 @@ const Footer = () => {
                   to="/contact"
                   className="text-gray-300 hover:text-white text-sm"
                 >
-                  Contact Us
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -44,16 +44,16 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Contact Us</h3>
+            <h3 className="text-lg font-bold">Contact</h3>
             <ul className="space-y-2">
               <li className="text-gray-300 text-sm">
                 <span className="mr-2">📞</span> +1 234 567 890
               </li>
               <li className="text-gray-300 text-sm">
-                <span className="mr-2">📧</span> support@foodvilla.com
+                <span className="mr-2">📧</span> support@swadish.com
               </li>
               <li className="text-gray-300 text-sm">
-                <span className="mr-2">📍</span> 123 Food Street, Cuisine City
+                <span className="mr-2">📍</span> 2nd Street, Gandhi Nagar, Kerala - 00001
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300 text-sm">
-            © {new Date().getFullYear()} Food Villa. All rights reserved.
+            © {new Date().getFullYear()} Swadish. All rights reserved.
           </p>
         </div>
       </div>
