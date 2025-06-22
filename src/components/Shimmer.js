@@ -29,9 +29,6 @@ const ShimmerCard = () => {
   );
 };
 
-
-
-
 const Shimmer = () => {
   return (
     <div className="flex flex-wrap justify-center">

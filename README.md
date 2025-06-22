@@ -78,7 +78,7 @@ To set up and run this project locally:
 git clone https://github.com/vnavaneeth10/Food-App.git
 cd Food-App
 npm install
-npm run dev
+npm start
 ```
 
 > ✅ Make sure [Node.js](https://nodejs.org/) and [Parcel](https://parceljs.org/) are installed.

@@ -1,18 +1,3 @@
-// import React from 'react'
-
-// const Grocery = () => {
-//   return (
-//     <h1>
-//         Our Grocery store online store, and we have alot of child components inside this web page
-//     </h1>
-//   )
-// }
-
-// export default Grocery
-
-
-
-
 import React, { useState } from "react";
 
 const GROCERY_CATEGORIES = [
@@ -23,7 +8,7 @@ const GROCERY_CATEGORIES = [
       { id: 1, name: "Apples", price: 2.99, unit: "kg" },
       { id: 2, name: "Bananas", price: 1.99, unit: "dozen" },
       { id: 3, name: "Tomatoes", price: 3.49, unit: "kg" },
-    ]
+    ],
   },
   {
     id: 2,
@@ -32,7 +17,7 @@ const GROCERY_CATEGORIES = [
       { id: 4, name: "Milk", price: 3.99, unit: "liter" },
       { id: 5, name: "Cheese", price: 4.99, unit: "pack" },
       { id: 6, name: "Eggs", price: 2.99, unit: "dozen" },
-    ]
+    ],
   },
   {
     id: 3,
@@ -41,15 +26,17 @@ const GROCERY_CATEGORIES = [
       { id: 7, name: "Rice", price: 5.99, unit: "kg" },
       { id: 8, name: "Pasta", price: 2.49, unit: "pack" },
       { id: 9, name: "Flour", price: 3.99, unit: "kg" },
-    ]
-  }
+    ],
+  },
 ];
 
 const GroceryItem = ({ item }) => (
   <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow">
     <h3 className="font-semibold text-gray-800">{item.name}</h3>
     <div className="flex justify-between items-center mt-2">
-      <span className="text-gray-600">₹{item.price}/{item.unit}</span>
+      <span className="text-gray-600">
+        ₹{item.price}/{item.unit}
+      </span>
       <button className="bg-green-500 text-white px-3 py-1 rounded-full text-sm hover:bg-green-600 transition-colors">
         Add to Cart
       </button>
@@ -58,15 +45,21 @@ const GroceryItem = ({ item }) => (
 );
 
 const Grocery = () => {
-  const [selectedCategory, setSelectedCategory] = useState(GROCERY_CATEGORIES[0].id);
+  const [selectedCategory, setSelectedCategory] = useState(
+    GROCERY_CATEGORIES[0].id
+  );
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Fresh Groceries</h1>
-          <p className="text-gray-600">Shop fresh groceries from our carefully curated selection</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            Fresh Groceries
+          </h1>
+          <p className="text-gray-600">
+            Shop fresh groceries from our carefully curated selection
+          </p>
         </div>
 
         {/* Categories and Items */}
@@ -97,7 +90,9 @@ const Grocery = () => {
           {/* Items Grid */}
           <div className="md:col-span-3">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {GROCERY_CATEGORIES.find(cat => cat.id === selectedCategory)?.items.map(item => (
+              {GROCERY_CATEGORIES.find(
+                (cat) => cat.id === selectedCategory
+              )?.items.map((item) => (
                 <GroceryItem key={item.id} item={item} />
               ))}
             </div>

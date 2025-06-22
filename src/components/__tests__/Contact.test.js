@@ -1,46 +1,39 @@
 import { render } from "@testing-library/react";
 import Contact from "../Contact";
 import "@testing-library/jest-dom";
-import { screen, configure } from '@testing-library/react'
+import { screen, configure } from "@testing-library/react";
 
+describe("COntact us page Test cases", () => {
+  beforeAll(() => {
+    console.log("before all");
+  });
 
-describe("COntact us page Test cases",()=>{
+  beforeEach(() => {
+    console.log("Before Each");
+  });
 
-    beforeAll(() => {
-        console.log("before all")
-    })
+  afterAll(() => {
+    console.log("After All");
+  });
 
-    beforeEach(() => {
-        console.log("Before Each")
-    })
+  afterEach(() => {
+    console.log("After Each");
+  });
 
-    afterAll(()=>{
-        console.log("After All")
-    })
+  test("Should load Contact page component", () => {
+    render(<Contact />);
 
-    afterEach(()=>{
-        console.log("After Each")
-    })
+    const heading = screen.getByRole("heading");
 
+    expect(heading).toBeInTheDocument();
+  });
 
-    test("Should load Contact page component",()=>{
+  test("Should load button inside Contact  component", () => {
+    render(<Contact />);
 
-        render(<Contact/>);
-    
-        const heading =  screen.getByRole("heading");
-    
-        expect(heading).toBeInTheDocument();
-    
-    });
-    
-    test("Should load button inside Contact  component",()=>{
-    
-        render(<Contact/>);
-    
-        //Querying
-        const button =  screen.getByRole("button");
-    
-        expect(button).toBeInTheDocument();
-    
-    });
-})
+    //Querying
+    const button = screen.getByRole("button");
+
+    expect(button).toBeInTheDocument();
+  });
+});

@@ -1,56 +1,3 @@
-// import { useDispatch, useSelector } from "react-redux";
-// import ItemList from "./ItemList";
-// import { clearCart } from "../utils/cartSlice";
-
-
-// const Cart = () => {
-
-//     const cartItems = useSelector((store)=>store.cart.items);
-
-//     const dispatch = useDispatch();
-
-//     const handleClearCart = () => {
-
-//         dispatch(clearCart());
-
-//     };
-    
-//    return (
-
-//     <div 
-//     className="text-center m-4 p-4">
-
-//      <h1 
-//      className="text-2xl font-bold">
-
-//         Cart</h1>
-
-//      <div 
-//      className="w-6/12 m-auto">
-     
-//         <button 
-
-//         className="p-2 m-2 bg-black text-white rounded-lg" 
-
-//         onClick={handleClearCart}>
-
-//             Clear Cart
-
-//         </button>
-
-//         {cartItems.length == 0 &&
-//          <h1>Cart Itmes are empty.Please Add items to the cart</h1>}
-//         <ItemList items={cartItems}/>
-        
-//      </div>
-//      </div> 
-//      )
-// }
-
-
-// export default Cart;
-
-
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { CDN_URL } from "../utils/constants";
@@ -74,12 +21,13 @@ const Cart = () => {
   };
 
   const calculateTotal = () => {
-  const total = cartItems.reduce((total, item) => {
-    const itemPrice = (item.card.info.price ?? item.card.info.defaultPrice) / 100;
-    return total + (itemPrice * item.card.info.inStock);
-  }, 0);
-  return Number(total.toFixed(2));
-};
+    const total = cartItems.reduce((total, item) => {
+      const itemPrice =
+        (item.card.info.price ?? item.card.info.defaultPrice) / 100;
+      return total + itemPrice * item.card.info.inStock;
+    }, 0);
+    return Number(total.toFixed(2));
+  };
 
   const handleRemoveItem = () => {};
 
@@ -122,7 +70,11 @@ const Cart = () => {
                     </h3>
                     <p className="text-sm text-gray-500">{item.restaurant}</p>
                     <p className="text-gray-900 mt-1">
-                       ₹{((item.card.info.price ?? item.card.info.defaultPrice) / 100).toFixed(2)}
+                      ₹
+                      {(
+                        (item.card.info.price ?? item.card.info.defaultPrice) /
+                        100
+                      ).toFixed(2)}
                     </p>
                   </div>
 
@@ -193,4 +145,3 @@ const Cart = () => {
 };
 
 export default Cart;
-
