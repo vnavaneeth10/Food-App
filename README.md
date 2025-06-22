@@ -66,13 +66,11 @@ src/
 │   └── useRestaurantMenu.js
 └── App.js
 
-
-
-
-
 ---
 
-##  📦 Installation
+## 🏗️ Folder Structure
+
+ 📦 Installation
 
 To set up and run this project locally:
 
