@@ -65,17 +65,43 @@ src/
 - 🧠 **React Hooks & Context API** – Managing local and global state
 - 💤 **Lazy Loading** – Improves performance and load time
 
+## 📸 Screenshots
+
+> Showcase of key UI screens from the application.
+
+### 🏠 Home Page
+
+![Home Screenshot](./assets/screenshots/home.png)
+
+### 📋 Restaurant Menu Page
+
+![Menu Screenshot](./assets/screenshots/menu.png)
+
+### 🛒 Cart Page
+
+![Cart Screenshot](./assets/screenshots/cart.png)
+
+# > ℹ️ Make sure to place your screenshots inside `assets/screenshots/` folder.
+
+---
+
+## 🎥 Demo Video
+
+> A short walkthrough of the web app functionality.
+
+[![Watch Video Demo](https://img.shields.io/badge/Click_to_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](video-link)
+
+> 📌 
+
+---
+
+## 📂 Project Presentation
+
+> A brief PPT explaining features, tech stack, architecture, and user flow.
+
+📥 [Download Project PPT](ppt-link)  
 
 
-## 🧰 Tech Stack
 
-![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Parcel](https://img.shields.io/badge/Parcel-bd3b00?style=for-the-badge&logo=parcel&logoColor=white)
-![Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Context API](https://img.shields.io/badge/Context_API-20232A?style=for-the-badge&logo=react&logoColor=white)
-![Lazy Loading](https://img.shields.io/badge/Lazy_Loading-FF9900?style=for-the-badge&logo=javascript&logoColor=white)
+
+
