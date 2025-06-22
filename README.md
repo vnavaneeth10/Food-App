@@ -122,12 +122,6 @@ npm test
 
 ---
 
-## 👨‍💻 Author
-
-**Navaneeth V**  
-
-
----
 
 ## 📄 License
 
