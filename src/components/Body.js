@@ -14,16 +14,20 @@ const Body = () => {
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   const fetchData = async () => {
-    const response = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9613042&lng=80.2355167&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
-    const data = await response.json();
-    const restaurants =
-      data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants || [];
+    try {
+      const response = await fetch(
+        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9613042&lng=80.2355167&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      );
+      const data = await response.json();
+      const restaurants =
+        data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+          ?.restaurants || [];
 
-    setListOfRestaurants(restaurants);
-    setFilteredRestaurant(restaurants);
+      setListOfRestaurants(restaurants);
+      setFilteredRestaurant(restaurants);
+    } catch {
+      console.error("Fetch error:", error);
+    }
   };
 
   useEffect(() => {
