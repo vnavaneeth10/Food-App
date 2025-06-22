@@ -6,7 +6,7 @@ Swadish is a high-performance, responsive food ordering web application built us
 
 ## 🚀 Features
 
-- 🍔 Dynamic restaurant listing with live API
+- 🍔 Dynamic restaurant listing with Swiggy's live API
 - 🛒 Cart functionality using Redux Toolkit
 - ⚡ Shimmer loading UI and lazy loading
 - 🔍 Search restaurants and filter by rating
