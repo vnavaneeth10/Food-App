@@ -68,41 +68,6 @@ src/
 
 
 
-## 📸 Screenshots
-
-> Showcase of key UI screens from the application.
-
-### 🏠 Home Page
-
-![Home Screenshot](./assets/screenshots/home.png)
-
-### 📋 Restaurant Menu Page
-
-![Menu Screenshot](./assets/screenshots/menu.png)
-
-### 🛒 Cart Page
-
-![Cart Screenshot](./assets/screenshots/cart.png)
-
-# > ℹ️ Make sure to place your screenshots inside `assets/screenshots/` folder.
-
----
-
-## 🎥 Demo Video
-
-> A short walkthrough of the web app functionality.
-
-[![Watch Video Demo](https://img.shields.io/badge/Click_to_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](video-link)
-
-> 📌 
-
----
-
-## 📂 Project Presentation
-
-> A brief PPT explaining features, tech stack, architecture, and user flow.
-
-📥 [Download Project PPT](ppt-link)  
 
 
 ---
@@ -116,7 +81,7 @@ cd Food-App
 npm install
 npm run dev
 
-Ensure Node.js and Parcel are installed.
+
 
 ---
 
@@ -127,16 +92,16 @@ To run unit tests using Jest and React Testing Library:
 npm test
 
 
-Test files are located inside components/__tests__/
+
 
 ---
 
 
 ## 🌐 Live Demo
 
-👉 Live App
+👉 https://swadishcom.vercel.app/
 
-Hosted on Netlify/Vercel/GitHub Pages
+
 
 
 ---

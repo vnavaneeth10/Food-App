@@ -1,6 +1,27 @@
-/node_modules
-/dist
-/.parcel-cache
+# /node_modules/
+# /dist
+# /.parcel-cache/
+# /coverage/
+# /dummy.js
+# /coverage
+# /structure.txt
+# Swadish_README.md
+
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+ 
+# Parcel cache
+/.parcel-cache/
+
+# Test coverage reports
+/coverage/
+
+# Temporary or test files
 /dummy.js
-/coverage
 /structure.txt
+
+# Project-specific files to ignore
+Swadish_README.md
