@@ -68,9 +68,11 @@ src/
 
 ---
 
-## 🏗️ Folder Structure
 
- 📦 Installation
+
+```bash
+
+##  📦 Installation
 
 To set up and run this project locally:
 
