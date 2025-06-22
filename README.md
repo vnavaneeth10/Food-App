@@ -65,16 +65,15 @@ src/
 │   ├── UserContext.js
 │   └── useRestaurantMenu.js
 └── App.js
+```
 
 ---
 
 
-
-```bash
-
 ##  📦 Installation
 
 To set up and run this project locally:
+
 
 git clone https://github.com/vnavaneeth10/Food-App.git
 cd Food-App
