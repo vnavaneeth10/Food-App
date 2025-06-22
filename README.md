@@ -54,3 +54,13 @@ src/
 └── App.js
 
 
+## 🧰 Tech Stack
+
+- ⚛️ **React.js** – Component-based architecture
+- 🛠️ **Redux Toolkit** – State management with slices and store
+- 🎨 **Tailwind CSS** – Utility-first CSS for responsive UI
+- 🧪 **Jest & React Testing Library** – Unit and component testing
+- 🌐 **React Router DOM** – Client-side routing
+- 📦 **Parcel** – Blazing fast bundler for development
+- 🧠 **React Hooks & Context API** – Managing local and global state
+- 💤 **Lazy Loading** – Improves performance and load time
