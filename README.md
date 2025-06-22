@@ -84,6 +84,23 @@ npm run dev
 > ✅ Make sure [Node.js](https://nodejs.org/) and [Parcel](https://parceljs.org/) are installed.
 
 
+```bash
+⚙️ CORS Extension Required (For Swiggy Live API)
+
+Since this project uses Swiggy's live API, you might encounter CORS errors while fetching data.
+
+To avoid this:
+
+Install this Chrome CORS plugin:
+👉 Allow CORS: Access-Control-Allow-Origin
+
+After installation, toggle the extension switch ON (top right of Chrome)
+
+⚠️ Caution:
+If the CORS extension is enabled (ON), some apps like YouTube or streaming platforms may pause or fail to load videos.
+➡️ Remember to turn it OFF after using the app.
+```
+
 ---
 
 ## 🧪 Run Tests
