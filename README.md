@@ -74,47 +74,52 @@ src/
 
 To set up and run this project locally:
 
-
+```bash
 git clone https://github.com/vnavaneeth10/Food-App.git
 cd Food-App
 npm install
 npm run dev
+```
 
+> ✅ Make sure [Node.js](https://nodejs.org/) and [Parcel](https://parceljs.org/) are installed.
 
 
 ---
 
-##  🧪 Run Tests
+## 🧪 Run Tests
 
-To run unit tests using Jest and React Testing Library:
+To run unit tests using **Jest** and **React Testing Library**:
 
+```bash
 npm test
+```
 
-
-
+> ✅ Test files are located inside `components/__tests__/`
 
 ---
-
 
 ## 🌐 Live Demo
 
-👉 https://swadishcom.vercel.app/
-
-
+👉 [**Live App**](https://swadishcom.vercel.app/)
 
 
 ---
 
-
 ## 👨‍💻 Author
 
-Navaneeth V
+**Navaneeth V**  
 
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
+```text
+MIT License
+
+Copyright (c) 2025 Navaneeth
 
 MIT License
 
@@ -137,9 +142,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-
-
-
-
