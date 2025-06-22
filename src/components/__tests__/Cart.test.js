@@ -20,7 +20,8 @@ global.fetch = jest.fn(()=>{
 });
 
 
-it("should load Restuarant Menu Component",async ()=>{
+it("should load Restuarant Menu Component",async ()=> {
+
     await act(async () => render(
     <BrowserRouter>
     <Provider store={appStore}> 
